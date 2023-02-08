@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1675301966 source:g:\ktlt\sudokugame\stopwatch.cpp
+	"Stopwatch.h"
+	<chrono>
+
+1675302001 g:\ktlt\sudokugame\stopwatch.h
+	<thread>
+	<sstream>
+
+1675301919 source:g:\ktlt\sudokugame\sudokuboard.cpp
+	"SudokuBoard.h"
+
+1675301945 g:\ktlt\sudokugame\sudokuboard.h
+	"SudokuGenerator.h"
+	<vector>
+	<map>
+
+1675301894 g:\ktlt\sudokugame\sudokugenerator.h
+	"SudokuSolver.h"
+
+1675301091 g:\ktlt\sudokugame\sudokusolver.h
+	<array>
+
+1675301873 source:g:\ktlt\sudokugame\sudokugenerator.cpp
+	"SudokuGenerator.h"
+	<array>
+	<algorithm>
+	<random>
+	<chrono>
+	<string.h>
+	<stdexcept>
+
+1675301194 source:g:\ktlt\sudokugame\sudokusolver.cpp
+	"SudokuSolver.h"
+	<algorithm>
+	<random>
+	<chrono>
+	<string.h>
+	<stdexcept>
+

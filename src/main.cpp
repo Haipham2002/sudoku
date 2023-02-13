@@ -82,9 +82,6 @@ int main(int argc, char *argv[]) {
         if (strcmp(argv[i], "-hard") == 0) {
             gen = new Generator(56);
         } 
-        if (strcmp(argv[i], "-master") == 0) {
-            gen = new Generator(63);
-        } 
         if (strcmp(argv[i], "-w") == 0 || strcmp(argv[i], "--wasd") == 0) {
             strcpy(navKeys, "aswd");
         }

@@ -70,9 +70,21 @@ int main(int argc, char *argv[]) {
     char navKeys[] = "hjkl";
     Generator *gen = nullptr;
     for (auto i = 1; i < argc; i++) {
-       	if (atoi(argv[i]) > 0) {
-           	gen = new Generator(49);
-       	}
+//        	if (atoi(argv[i]) > 0) {
+//            	gen = new Generator(atoi(argv[i]));
+//        	}
+        if (strcmp(argv[i], "-easy") == 0) {
+            gen = new Generator(42);
+        }   
+        if (strcmp(argv[i], "-medium") == 0) {
+            gen = new Generator(49);
+        } 
+        if (strcmp(argv[i], "-hard") == 0) {
+            gen = new Generator(56);
+        } 
+        if (strcmp(argv[i], "-master") == 0) {
+            gen = new Generator(63);
+        } 
         if (strcmp(argv[i], "-w") == 0 || strcmp(argv[i], "--wasd") == 0) {
             strcpy(navKeys, "aswd");
         }

@@ -71,7 +71,7 @@ int main(int argc, char *argv[]) {
     Generator *gen = nullptr;
     for (auto i = 1; i < argc; i++) {
        	if (atoi(argv[i]) > 0) {
-           	gen = new Generator(atoi(argv[i]));
+           	gen = new Generator(49);
        	}
         if (strcmp(argv[i], "-w") == 0 || strcmp(argv[i], "--wasd") == 0) {
             strcpy(navKeys, "aswd");

@@ -59,5 +59,21 @@ Dưới đây là các hình ảnh Sudoku ở các chế độ chơi khác nhau
 ### `./<filename> -hard`
 ![hard game](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/hard-mode.png)
 
+## Quá trình phân tích, thiết kế và phát triển dự án
+### Lưu đồ thuật toán cho bộ giải đố và bộ tạo câu đố
+![Solver and Generator flowchart](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Solver%26Generator%20flowchart.jpg)
+### Sơ đồ Usecase
+![Usecase diagram](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Usecase.jpg)
+### Sơ đồ lớp thiết kế
+![Class diagram](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Class%20.jpg)
+### Sơ đồ tương tác tuần tự
+![Sequence diagram](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Sequence.jpg)
+### Sơ đồ tương tác cộng tác
+![Collaboration diagram](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Collaboration.jpg)
+### Sơ đồ hoạt động
+![Activity diagram](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Activity.jpg)
+### Sơ đồ thành phần
+![Component diagram](https://github.com/Haipham2002/sudoku/blob/main/documents/UML/Sudoku%20UML-Component.jpg)
+
 ## Troubleshooting
 Nếu trình biên dịch không thể tìm thấy ncurses.h, hãy install trên terminal (có thể tham khảo [link này](https://www.youtube.com/watch?v=ebEG_EilTaI)). Nếu không tìm thấy thư viện ncurses trong package manager, nó có thể có tên gọi khác như "libcurse". Nếu vẫn không được hãy dùng lệnh ` -lncurses` thay vì ` -lncursesw` khi khởi động phần mềm.

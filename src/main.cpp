@@ -30,8 +30,7 @@ void printHelp() {
                            "https://en.wikipedia.org/wiki/Sudoku\n\n"
                            "See the readme for more information.\n"
                            "The readme can be read online at:\n"
-                           "https://github.com/flyingpeakock/Console_sudoku/blob/master/README.md\n"
-                           "https://philipj.ydns.eu/stagit/Console_sudoku/file/README.md.html\n");
+                           "https://github.com/Haipham2002/sudoku/blob/main/README.md\n");
 }
 
 std::string getRandomXMLPuzzle(const char *fileName) {

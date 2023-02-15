@@ -47,17 +47,17 @@ Trong đó <filename> là tên file tùy ý mà bạn muốn đặt.
 ## Ảnh
 Dưới đây là các hình ảnh Sudoku ở các chế độ chơi khác nhau
 ### `./<filename>`
-![default game](https://github.com/Haipham2002/sudoku/blob/main/documents/default%20game.png)
+![default game](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/default%20game.png)
 ### `./<filename> -h`hoặc `./<filename> --help`
-![print help](https://github.com/Haipham2002/sudoku/blob/main/documents/help.png)
+![print help](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/help.png)
 ### `./<filename> -w`hoặc `./<filename> --wasd`
-![default game](https://github.com/Haipham2002/sudoku/blob/main/documents/wasd%20mode.png)
+![wasd mode](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/wasd%20mode.png)
 ### `./<filename> -easy`
-![default game](https://github.com/Haipham2002/sudoku/blob/main/documents/easy-mode.png)
+![easy game](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/easy-mode.png)
 ### `./<filename> -medium`
-![default game](https://github.com/Haipham2002/sudoku/blob/main/documents/medium-mode.png)
+![medium game](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/medium-mode.png)
 ### `./<filename> -hard`
-![default game](https://github.com/Haipham2002/sudoku/blob/main/documents/hard-mode.png)
+![hard game](https://github.com/Haipham2002/sudoku/blob/main/documents/Pics/hard-mode.png)
 
 ## Troubleshooting
 Nếu trình biên dịch không thể tìm thấy ncurses.h, hãy install trên terminal (có thể tham khảo [link này](https://www.youtube.com/watch?v=ebEG_EilTaI)). Nếu không tìm thấy thư viện ncurses trong package manager, nó có thể có tên gọi khác như "libcurse". Nếu vẫn không được hãy dùng lệnh ` -lncurses` thay vì ` -lncursesw` khi khởi động phần mềm.

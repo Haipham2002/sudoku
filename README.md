@@ -23,14 +23,14 @@ Hoặc có thể git clone trực tiếp về máy và chạy phần mềm sử 
 #### Linux
 ````
 git clone https://github.com/Haipham2002/sudoku.git
-cd Console_sudoku/
+cd sudoku/
 g++ -Ofast -pthread ./src/*.cpp -lncursesw -o <filename>
 ./<filename>
 ````
 #### OSX
 ```
 git clone https://github.com/Haipham2002/sudoku.git
-cd Console_sudoku/
+cd sudoku/
 clang++ -O3 -pthread -std=c++11 -stdlib=libc++ ./src/*.cpp -lncursesw -o <filename>
 ```
 Trong đó <filename> là tên file tùy ý mà bạn muốn đặt.

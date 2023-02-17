@@ -22,14 +22,14 @@ Có thể download trực tiếp mã nguồn [tại đây](https://github.com/Ha
 Hoặc có thể git clone trực tiếp về máy và chạy phần mềm sử dụng trình biên dịch g++ hoặc clang++ như dưới đây.
 #### Linux
 ````
-git clone https://github.com/flyingpeakock/Console_sudoku.git
+git clone https://github.com/Haipham2002/sudoku.git
 cd Console_sudoku/
 g++ -Ofast -pthread ./src/*.cpp -lncursesw -o <filename>
 ./<filename>
 ````
 #### OSX
 ```
-git clone https://github.com/flyingpeakock/Console_sudoku.git
+git clone https://github.com/Haipham2002/sudoku.git
 cd Console_sudoku/
 clang++ -O3 -pthread -std=c++11 -stdlib=libc++ ./src/*.cpp -lncursesw -o <filename>
 ```
